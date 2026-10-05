@@ -1,4 +1,4 @@
-package solutions._07_references;
+package solutions._07_method_references;
 
 import java.io.BufferedReader;
 import java.io.IOException;
