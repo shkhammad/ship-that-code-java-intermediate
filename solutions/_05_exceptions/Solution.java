@@ -1,8 +1,6 @@
-import java.util.*;
-import java.util.function.*;
-import java.io.*;
+package solutions._05_exceptions;
 
-public class Main {
+class Main {
     static int divide(int a, int b) throws ArithmeticException{
         // Reject the b == 0 case with a throw STATEMENT:
         //     throw new SomeException("message");
