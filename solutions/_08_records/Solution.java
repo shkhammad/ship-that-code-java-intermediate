@@ -1,8 +1,6 @@
-import java.util.*;
-import java.util.function.*;
-import java.io.*;
+package solutions._08_records;
 
-public class Main {
+class Main {
     static final class Person {
         final private String name;
         final private int age;
