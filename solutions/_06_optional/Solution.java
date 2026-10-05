@@ -1,8 +1,11 @@
-import java.util.*;
-import java.util.function.*;
-import java.io.*;
+package solutions._06_optional;
 
-public class Main {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Optional;
+
+class Main {
     static Optional<Integer> safeParse(String s) {
         // Integer.parseInt throws NumberFormatException on bad input.
         // Return a present Optional on success and an empty one on failure.
