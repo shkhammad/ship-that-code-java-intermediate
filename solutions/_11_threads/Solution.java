@@ -1,9 +1,8 @@
-import java.time.*;
-import java.io.*;
+package solutions._11_threads;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
-
-public class Main {
+class Main {
     public static void main(String[] args) throws InterruptedException {
         AtomicInteger counter = new AtomicInteger(0);
         Thread[] threads = new Thread[4];
