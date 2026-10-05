@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 class Main {
     public static void main(String[] args) throws Exception {
+        //use (Cmd + D) to signal EOF for System.in
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         try(Stream<String> line = br.lines()){
